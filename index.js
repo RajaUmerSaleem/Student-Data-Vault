@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(process.cwd(), 'views'));
 
 // Middleware
-app.use(cors({ origin: 'http://Student.vercel.app' }));
+app.use(cors({ origin: 'http://studentdv.vercel.app' }));
 app.use(json());
 app.use(express.static('public')); // For serving static files
 app.use(express.urlencoded({ extended: true })); // For parsing form data
